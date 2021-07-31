@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+.count::-webkit-scrollbar {
+    width: 1em;
+}
+
+.count::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.count::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 2px solid slategrey;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: url(https://4kwallpapers.com/images/wallpapers/macos-monterey-stock-red-light-layers-5k-5120x2880-5897.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    padding:  100px 0;
+}
+.container {
+    width: 800px;
+    height: max-content;
+    border: 2px solid rgb(156, 156, 156);
+    margin: 0 auto;
+    background: whitesmoke;
+}
+
+.header {
+    display: flex;
+    height: 150px;
+}
+
+.title-block {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    font-size: 45px;
+    background: url(https://static-prod.weplay.tv/2020-01-10/a4d94a1e4a4caca58f31a490c8db8445_large_cover.261A1B-B7494A-847E7A.png);
+    background-size: cover;
+    background-position-y: 300px;
+    color: #fff;
+}
+
+.userpic {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background: url(images/Screenshot_5.png);
+    background-size: cover;
+    background-position-y: top;
+}
+
+
+.count {
+    height: max-content;
+    font-size: 10px;
+    
+    padding:  15px;
+}
+
+.count * {
+    width: fit-content;
+    font-size: 20px;
+}
+
+.count *:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
